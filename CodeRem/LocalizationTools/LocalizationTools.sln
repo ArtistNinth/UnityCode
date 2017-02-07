@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A8E77ED9-4AFD-0A7B-B3C1-C159A7C8F7AA}") = "LocalizationTools", "Assembly-CSharp.csproj", "{02946346-86BD-FEF5-FE05-92174FBD026E}"
+EndProject
+Project("{A8E77ED9-4AFD-0A7B-B3C1-C159A7C8F7AA}") = "LocalizationTools", "Assembly-CSharp-Editor.csproj", "{2BB8E302-FC1E-1920-4FFE-ECEA37FA0F86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02946346-86BD-FEF5-FE05-92174FBD026E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02946346-86BD-FEF5-FE05-92174FBD026E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02946346-86BD-FEF5-FE05-92174FBD026E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02946346-86BD-FEF5-FE05-92174FBD026E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB8E302-FC1E-1920-4FFE-ECEA37FA0F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB8E302-FC1E-1920-4FFE-ECEA37FA0F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB8E302-FC1E-1920-4FFE-ECEA37FA0F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB8E302-FC1E-1920-4FFE-ECEA37FA0F86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
