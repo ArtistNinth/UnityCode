@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/chp00_Introduction/NOC_I_2_RandomDistribution/Level_RandomDistribution.unity
+  isLoaded: 1
+  isActive: 1
