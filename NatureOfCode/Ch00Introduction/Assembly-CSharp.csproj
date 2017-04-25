@@ -49,6 +49,12 @@
      <Compile Include="Assets\chp00_Introduction\NOC_I_1_RandomWalkTraditional\Script\NOC_I_1_RandomWalkTraditional.cs" />
      <Compile Include="Assets\chp00_Introduction\NOC_I_1_RandomWalkTraditional\Script\Walker.cs" />
      <Compile Include="Assets\chp00_Introduction\NOC_I_2_RandomDistribution\Script\NOC_I_2_RandomDistribution.cs" />
+     <Compile Include="Assets\chp00_Introduction\NOC_I_3_RandomWalkTendsToRight\Script\NOC_I_3_RandomWalkTendsToRight.cs" />
+     <Compile Include="Assets\chp00_Introduction\NOC_I_3_RandomWalkTendsToRight\Script\Walker.cs" />
+     <Compile Include="Assets\chp00_Introduction\NOC_I_4_Gaussian\Script\NOC_I_4_Gaussian.cs" />
+     <Compile Include="Assets\chp00_Introduction\NOC_I_5_AcceptReject\Script\NOC_I_5_AcceptReject.cs" />
+     <Compile Include="Assets\chp00_Introduction\NOC_I_6_NoiseWalk\Script\NOC_I_6_NoiseWalk.cs" />
+     <Compile Include="Assets\chp00_Introduction\NOC_I_6_NoiseWalk\Script\Walker.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

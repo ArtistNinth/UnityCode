@@ -14,6 +14,8 @@ namespace chp00_NOC1_3{
 			get{return _y;}	
 		}
 		
+		private int limit = 50;
+		
 		public Walker(){
 			_x = 0;
 			_y = 0;
@@ -31,19 +33,8 @@ namespace chp00_NOC1_3{
 				_y--;
 			}
 			
-			int limit = 50;
-			if(_x > limit){
-				_x = limit;
-			}
-			if(_x < -limit){
-				_x = -limit;
-			}
-			if(_y > limit){
-				_y = limit;
-			}
-			if(_y < -limit){
-				_y = -limit;
-			}
+			_x = Mathf.Clamp(_x,-limit,limit);
+			_y = Mathf.Clamp(_y,-limit,limit);
 		}
 	}
 }

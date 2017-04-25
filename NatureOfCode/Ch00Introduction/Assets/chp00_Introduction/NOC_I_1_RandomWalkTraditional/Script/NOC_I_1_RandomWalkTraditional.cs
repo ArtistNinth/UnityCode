@@ -1,27 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using chp00_NOC1_1;
 
-public class NOC_I_1_RandomWalkTraditional : MonoBehaviour {
+namespace chp00_NOC1_1
+{
+	public class NOC_I_1_RandomWalkTraditional : MonoBehaviour {
 
-	private Transform trans;
+		private Transform trans;
 
-	private Walker walker;
+		private Walker walker;
 
-	// Use this for initialization
-	void Start () {
-		trans = GetComponent<Transform>();
+		// Use this for initialization
+		void Start () {
+			trans = GetComponent<Transform>();
+			
+			walker = new Walker();
+		}
 		
-		walker = new Walker();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		walker.step();
-		
-		Debug.Log(walker.x + " " + walker.y);
-		Vector3 newpos = new Vector3(walker.x,0,walker.y);
-		trans.position = newpos;
+		// Update is called once per frame
+		void Update () {
+			walker.step();
+			
+			Debug.Log(walker.x + " " + walker.y);
+			Vector3 newpos = new Vector3(walker.x,0,walker.y);
+			trans.position = newpos;
+		}
 	}
 }
+

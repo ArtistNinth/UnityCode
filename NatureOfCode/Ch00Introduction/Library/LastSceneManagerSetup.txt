@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/chp00_Introduction/NOC_I_2_RandomDistribution/Level_RandomDistribution.unity
+- path: Assets/chp00_Introduction/NOC_I_6_NoiseWalk/Level_NoiseWalk.unity
   isLoaded: 1
   isActive: 1
