@@ -55,6 +55,11 @@
      <Compile Include="Assets\chp00_Introduction\NOC_I_5_AcceptReject\Script\NOC_I_5_AcceptReject.cs" />
      <Compile Include="Assets\chp00_Introduction\NOC_I_6_NoiseWalk\Script\NOC_I_6_NoiseWalk.cs" />
      <Compile Include="Assets\chp00_Introduction\NOC_I_6_NoiseWalk\Script\Walker.cs" />
+     <Compile Include="Assets\chp01_Vectors\NOC_I_1_BouncingBallNoVectors\Script\NOC_I_1_BouncingBallNoVectors.cs" />
+     <Compile Include="Assets\chp01_Vectors\NOC_I_2_1_BouncingBallVectorsObject\Script\Ball.cs" />
+     <Compile Include="Assets\chp01_Vectors\NOC_I_2_1_BouncingBallVectorsObject\Script\NOC_I_2_1_BouncingBallVectorsObject.cs" />
+     <Compile Include="Assets\chp01_Vectors\NOC_I_2_BouncingBallVectors\Script\NOC_I_2_BouncingBallVectors.cs" />
+     <Compile Include="Assets\chp01_Vectors\NOC_I_3_VectorSubtraction\Script\VectorSubtraction.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
