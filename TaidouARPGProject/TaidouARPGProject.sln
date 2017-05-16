@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6E724271-0EEE-B648-C3E7-6AFF24A70C76}") = "TaidouARPGProject", "Assembly-CSharp.csproj", "{B457FF0D-98E1-B771-D4BB-E9CFF9B01A5F}"
+EndProject
+Project("{6E724271-0EEE-B648-C3E7-6AFF24A70C76}") = "TaidouARPGProject", "Assembly-CSharp-Editor.csproj", "{EB52FFFB-3133-44D9-4F29-1BF3D30E3113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B457FF0D-98E1-B771-D4BB-E9CFF9B01A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B457FF0D-98E1-B771-D4BB-E9CFF9B01A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B457FF0D-98E1-B771-D4BB-E9CFF9B01A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B457FF0D-98E1-B771-D4BB-E9CFF9B01A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB52FFFB-3133-44D9-4F29-1BF3D30E3113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB52FFFB-3133-44D9-4F29-1BF3D30E3113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB52FFFB-3133-44D9-4F29-1BF3D30E3113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB52FFFB-3133-44D9-4F29-1BF3D30E3113}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
